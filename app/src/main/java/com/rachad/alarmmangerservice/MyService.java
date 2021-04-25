@@ -29,7 +29,7 @@ public class MyService extends Service {
                 .setContentText("app is running")
                 .setSmallIcon(R.mipmap.ic_launcher_round)
                 .setContentIntent(pendingIntent).build();
-        startForeground(1, notification);
+        startForeground(369, notification);
         kill_me();
         return START_STICKY;
     }
