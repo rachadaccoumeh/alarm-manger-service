@@ -64,7 +64,7 @@ public class MyService extends Service {
      /*   am.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
                 AlarmManager.INTERVAL_DAY, pi);*/
 //setInexactRepeating
-        //setRepeating
+        //setRepeatingworking
         am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                 SystemClock.elapsedRealtime() + 10/*<- time by second*/ * 1000, pi);
     }
